@@ -22,11 +22,11 @@ const AppContextProvider = (props) => {
         setDoctors(data.doctors);
       } else {
         console.log(data.message);
-        toast.error(data.message);
+        //toast.error(data.message);
       }
     } catch (error) {
       console.log(error);
-      toast.error(error.message);
+      //toast.error(error.message);
     }
   };
 
@@ -42,7 +42,8 @@ const AppContextProvider = (props) => {
         setUserData(false);
       }
     } catch (error) {
-      toast.error(error.message);
+      console.log(error.message);
+     // toast.error(error.message);
     }
   };
 
