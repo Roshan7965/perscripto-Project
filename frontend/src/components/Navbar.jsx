@@ -25,8 +25,8 @@ const Navbar = () => {
         <NavLink to={"/"}>
           <img className="w-44 cursor-pointer" src={assets.logo} alt="logo" />
         </NavLink>
-
-        <NavLink to="http://localhost:5174/" className="px-2 py-1 border-black  border-2 rounded-full ">
+          {/* http://localhost:5174/ */}
+        <NavLink to="https://perscripto-admin.onrender.com" className="px-2 py-1 border-black  border-2 rounded-full ">
           Admin
         </NavLink>
       </div>
